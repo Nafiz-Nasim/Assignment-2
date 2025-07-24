@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
-@import "tailwindcss";
-
 .pic1 {
-  background-image: url("/assets/deal-bloom.png");
+  background-image: url("https://nafiz-nasim.github.io/Assignment-2/assets/deal-bloom.png");
 }
+
+@import "tailwindcss";
 
 @theme {
   --font-noto: "Noto Serif", serif;
