@@ -338,6 +338,15 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\'\.\/assets\/deal-ana\.png\'\)\] {
+    background-image: url('./assets/deal-ana.png');
+  }
+  .bg-\[url\(\'\.\/assets\/deal-bloom\.png\'\)\] {
+    background-image: url('./assets/deal-bloom.png');
+  }
+  .bg-\[url\(\'\.\/assets\/deal-zabo\.png\'\)\] {
+    background-image: url('./assets/deal-zabo.png');
+  }
   .bg-\[url\(\'\/assets\/deal-ana\.png\'\)\] {
     background-image: url('/assets/deal-ana.png');
   }
@@ -349,6 +358,15 @@
   }
   .bg-\[url\(\'\/assets\/news-letter-bg\.png\'\)\] {
     background-image: url('/assets/news-letter-bg.png');
+  }
+  .bg-\[url\(\.\/assets\/deal-ana\.png\)\] {
+    background-image: url(./assets/deal-ana.png);
+  }
+  .bg-\[url\(\.\/assets\/deal-bloom\.png\)\] {
+    background-image: url(./assets/deal-bloom.png);
+  }
+  .bg-\[url\(\.\/assets\/deal-zabo\.png\)\] {
+    background-image: url(./assets/deal-zabo.png);
   }
   .bg-\[url\(\.\/assets\/news-letter-bg\.png\)\] {
     background-image: url(./assets/news-letter-bg.png);
@@ -407,6 +425,14 @@
   }
   .text-\[20px\] {
     font-size: 20px;
+  }
+  .font-\[var\(--font-inter\)\] {
+    --tw-font-weight: var(--font-inter);
+    font-weight: var(--font-inter);
+  }
+  .font-\[var\(--font-noto\)\] {
+    --tw-font-weight: var(--font-noto);
+    font-weight: var(--font-noto);
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
