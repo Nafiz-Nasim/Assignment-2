@@ -359,6 +359,9 @@
   .bg-\[url\(\'\/assets\/news-letter-bg\.png\'\)\] {
     background-image: url('/assets/news-letter-bg.png');
   }
+  .bg-\[url\(\'https\:\/\/nafiz-nasim\.github\.io\/Assignment-2\/assets\/deal-bloom\.png\'\)\] {
+    background-image: url('https://nafiz-nasim.github.io/Assignment-2/assets/deal-bloom.png');
+  }
   .bg-\[url\(\.\/assets\/deal-ana\.png\)\] {
     background-image: url(./assets/deal-ana.png);
   }
