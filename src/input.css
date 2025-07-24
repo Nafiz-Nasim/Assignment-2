@@ -4,6 +4,14 @@
   background-image: url("https://nafiz-nasim.github.io/Assignment-2/assets/deal-bloom.png");
 }
 
+.pic2 {
+  background-image: url("https://nafiz-nasim.github.io/Assignment-2/assets/deal-ana.png");
+}
+
+.pic3 {
+  background-image: url("https://nafiz-nasim.github.io/Assignment-2/assets/deal-zabo.png");
+}
+
 @import "tailwindcss";
 
 @theme {

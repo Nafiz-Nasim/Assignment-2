@@ -4,6 +4,12 @@
 .pic1 {
   background-image: url("https://nafiz-nasim.github.io/Assignment-2/assets/deal-bloom.png");
 }
+.pic2 {
+  background-image: url("https://nafiz-nasim.github.io/Assignment-2/assets/deal-ana.png");
+}
+.pic3 {
+  background-image: url("https://nafiz-nasim.github.io/Assignment-2/assets/deal-zabo.png");
+}
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -321,11 +327,8 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\'\/assets\/deal-ana\.png\'\)\] {
-    background-image: url('/assets/deal-ana.png');
-  }
-  .bg-\[url\(\'\/assets\/deal-zabo\.png\'\)\] {
-    background-image: url('/assets/deal-zabo.png');
+  .bg-\[url\(\'\'\)\] {
+    background-image: url('');
   }
   .bg-\[url\(\'\/assets\/news-letter-bg\.png\'\)\] {
     background-image: url('/assets/news-letter-bg.png');
