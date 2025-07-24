@@ -11,6 +11,9 @@
 .pic3 {
   background-image: url("https://nafiz-nasim.github.io/Assignment-2/assets/deal-zabo.png");
 }
+.pic4 {
+  background-image: url("https://nafiz-nasim.github.io/Assignment-2/assets/news-letter-bg.png");
+}
 
 @import "tailwindcss";
 

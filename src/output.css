@@ -10,6 +10,9 @@
 .pic3 {
   background-image: url("https://nafiz-nasim.github.io/Assignment-2/assets/deal-zabo.png");
 }
+.pic4 {
+  background-image: url("https://nafiz-nasim.github.io/Assignment-2/assets/news-letter-bg.png");
+}
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -329,9 +332,6 @@
   }
   .bg-\[url\(\'\'\)\] {
     background-image: url('');
-  }
-  .bg-\[url\(\'\/assets\/news-letter-bg\.png\'\)\] {
-    background-image: url('/assets/news-letter-bg.png');
   }
   .bg-cover {
     background-size: cover;
