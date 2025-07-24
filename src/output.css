@@ -1,5 +1,5 @@
 /*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 @layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
@@ -217,9 +217,6 @@
   .hidden {
     display: none;
   }
-  .table {
-    display: table;
-  }
   .h-52 {
     height: calc(var(--spacing) * 52);
   }
@@ -241,28 +238,15 @@
   .max-w-\[300px\] {
     max-width: 300px;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .-translate-y-1 {
-    --tw-translate-y: calc(var(--spacing) * -1);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
   .-translate-y-1\/2 {
     --tw-translate-y: calc(calc(1/2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .resize {
-    resize: both;
   }
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .flex-col {
     flex-direction: column;
-  }
-  .flex-wrap {
-    flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
@@ -321,10 +305,6 @@
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
   .border-none {
     --tw-border-style: none;
     border-style: none;
@@ -338,53 +318,14 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-\[url\(\'\.\/assets\/deal-ana\.png\'\)\] {
-    background-image: url('./assets/deal-ana.png');
-  }
-  .bg-\[url\(\'\.\/assets\/deal-bloom\.png\'\)\] {
-    background-image: url('./assets/deal-bloom.png');
-  }
-  .bg-\[url\(\'\.\/assets\/deal-zabo\.png\'\)\] {
-    background-image: url('./assets/deal-zabo.png');
-  }
   .bg-\[url\(\'\/assets\/deal-ana\.png\'\)\] {
     background-image: url('/assets/deal-ana.png');
-  }
-  .bg-\[url\(\'\/assets\/deal-bloom\.png\'\)\] {
-    background-image: url('/assets/deal-bloom.png');
   }
   .bg-\[url\(\'\/assets\/deal-zabo\.png\'\)\] {
     background-image: url('/assets/deal-zabo.png');
   }
   .bg-\[url\(\'\/assets\/news-letter-bg\.png\'\)\] {
     background-image: url('/assets/news-letter-bg.png');
-  }
-  .bg-\[url\(\'https\:\/\/nafiz-nasim\.github\.io\/Assignment-2\/assets\/deal-bloom\.png\'\)\] {
-    background-image: url('https://nafiz-nasim.github.io/Assignment-2/assets/deal-bloom.png');
-  }
-  .bg-\[url\(\.\/assets\/deal-ana\.png\)\] {
-    background-image: url(./assets/deal-ana.png);
-  }
-  .bg-\[url\(\.\/assets\/deal-bloom\.png\)\] {
-    background-image: url(./assets/deal-bloom.png);
-  }
-  .bg-\[url\(\.\/assets\/deal-zabo\.png\)\] {
-    background-image: url(./assets/deal-zabo.png);
-  }
-  .bg-\[url\(\.\/assets\/news-letter-bg\.png\)\] {
-    background-image: url(./assets/news-letter-bg.png);
-  }
-  .bg-\[url\(\/assets\/deal-ana\.png\)\] {
-    background-image: url(/assets/deal-ana.png);
-  }
-  .bg-\[url\(\/assets\/deal-bloom\.png\)\] {
-    background-image: url(/assets/deal-bloom.png);
-  }
-  .bg-\[url\(\/assets\/deal-zabo\.png\)\] {
-    background-image: url(/assets/deal-zabo.png);
-  }
-  .bg-\[url\(\/assets\/news-letter-bg\.png\)\] {
-    background-image: url(/assets/news-letter-bg.png);
   }
   .bg-cover {
     background-size: cover;
@@ -429,14 +370,6 @@
   .text-\[20px\] {
     font-size: 20px;
   }
-  .font-\[var\(--font-inter\)\] {
-    --tw-font-weight: var(--font-inter);
-    font-weight: var(--font-inter);
-  }
-  .font-\[var\(--font-noto\)\] {
-    --tw-font-weight: var(--font-noto);
-    font-weight: var(--font-noto);
-  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -463,10 +396,6 @@
   }
   .opacity-50 {
     opacity: 50%;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .text-shadow-gray-300 {
     --tw-text-shadow-color: oklch(87.2% 0.01 258.338);
@@ -669,6 +598,9 @@
     }
   }
 }
+.pic1 {
+  background-image: url("/assets/deal-bloom.png");
+}
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;
@@ -694,19 +626,9 @@
   inherits: false;
   initial-value: 0;
 }
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 @property --tw-text-shadow-color {
   syntax: "*";
@@ -725,9 +647,7 @@
       --tw-translate-z: 0;
       --tw-space-y-reverse: 0;
       --tw-space-x-reverse: 0;
-      --tw-border-style: solid;
       --tw-font-weight: initial;
-      --tw-outline-style: solid;
       --tw-text-shadow-color: initial;
       --tw-text-shadow-alpha: 100%;
     }
